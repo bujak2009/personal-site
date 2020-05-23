@@ -1,0 +1,194 @@
+/************************************TAG SELECTORS*********************************************/
+
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  /* display: inline-block; */
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Indie Flower", cursive;
+  font-size: 5.625rem;
+  color: #f76a8c;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  color: #f76a8c;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #d9455f;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #d9455f;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 20px;
+  border-color: #d9455f;
+  /* border-top: 5px dotted gray width:10px; */
+  /* height: 0px; */
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+
+img {
+}
+
+/************************************CLASS SELECTORS*********************************************/
+
+/**********SECTIONS*************/
+
+.skills {
+  height: 80%;
+}
+
+.skill-row {
+  width: 25%;
+  margin: 100px 20px 100px 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+.skill-img-left {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img-right {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-container {
+  background-color: #ccf0e1;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 0;
+}
+
+.middle-container {
+  table-layout: auto;
+  margin: 100px 0 100px 0;
+}
+
+.bottom-container {
+  background-color: #5fdde5;
+  margin: 0;
+  padding: 80px 0 20px;
+}
+
+/***************OBJECTS***********/
+
+.programmer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  margin-top: 10px;
+  color: #f76a8c;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 80px;
+  right: 400px;
+}
+
+.greeting {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 50%;
+  margin: 40px auto 60px auto;
+}
+
+.BUTTON_IRB {
+  background: #3d94f6;
+  background-image: -webkit-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -moz-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -ms-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -o-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: linear-gradient(to bottom, #3d94f6, #1e62d0);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px 20px 10px 20px;
+  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  margin-top: 60px;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_IRB:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: linear-gradient(to bottom, #1e62d0, #3d94f6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.footer-link {
+  /* display: inline-block; */
+  margin: 0 40px 20px 40px;
+  width: 32px;
+  height: 32px;
+}
+
+.footer-link:hover {
+  border: solid #ccf0e1 1px;
+  background: #ccf0e1;
+  background-image: -webkit-linear-gradient(top, #ccf0e1, #f76a8c);
+  background-image: -moz-linear-gradient(top, #ccf0e1, #f76a8c);
+  background-image: -ms-linear-gradient(top, #ccf0e1, #f76a8c);
+  background-image: -o-linear-gradient(top, #ccf0e1, #f76a8c);
+  background-image: linear-gradient(to bottom, #ccf0e1, #f76a8c);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
